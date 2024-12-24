@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>聖誕主題</title>
+	<title>Merry Christmas Lauren</title>
 	<link rel="stylesheet" href="css/common.css"> 
 	<link rel="stylesheet" href="css/pageA.css">
 	<link rel="stylesheet" href="css/pageC.css"> 
@@ -10,17 +10,17 @@
 </head>
 <body>
 	<section class="container">
-		<!-- 第一幅画面 -->
+		<!-- First Picture -->
 		<section class="page-a bg-adaptive">
-			<!-- 月亮 -->
+			<!-- Moon -->
             <figure class="moon"></figure>
-            <!-- 圣诞树 -->
+            <!-- Christmas Tree -->
             <figure class="tree"></figure>
-            <!-- 云 -->
+            <!-- Cloud -->
             <figure class="cloudy"></figure>
-            <!-- 男孩 -->
+            <!-- Boys -->
             <div class="chs-boy chs-boy-deer"></div>
-            <!-- 窗户 -->
+            <!-- Window -->
             <div class="window wood">
                 <div class="window-bg"></div>
                 <div class="window-content">
@@ -29,23 +29,23 @@
                 </div>
             </div>
 		</section>
-		<!-- 第二幅画面 -->	
+		<!-- Second Picture -->	
 		<section class="page-b bg-adaptive">
-			<!-- 猫 -->
+			<!-- Cat -->
             <figure class="cat"></figure>
-            <!-- 小女孩 -->
+            <!-- Little Girl -->
             <figure class="girl"></figure>
-			<!-- 圣诞男孩 -->
+			<!-- Christmas Boy -->
             <figure class="christmas-boy-head"></figure>
             <figure class="christmas-boy boy-walk"> </figure>
-            <!-- 旋转木马 -->
+            <!-- Carousel -->
             <div id="carousel">
                 <figure id="spinner"></figure>
             </div>
 		</section>
-		<!-- 第三幅画面 -->
+		<!-- The third picture -->
 		<section class="page-c bg-adaptive">
-			<!-- 窗户关闭 -->
+			<!-- Window Closed -->
             <div class="window wood">
                 <div class="window-content" data-attr="red">
                     <div class="window-scene-bg"></div>
@@ -55,7 +55,7 @@
                 </div>
             </div>
 		</section>
-		<!-- 雪花 -->
+		<!-- Snowflakes -->
         <canvas id="snowflake"></canvas>
 	</section>
 </body>
@@ -73,7 +73,7 @@
 		}
 	},false)
 */
-	//rem设置
+	//rem settings
         (function(doc, win) {
             var docEl = doc.documentElement,
                 resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
@@ -89,7 +89,7 @@
         })(document, window);
 
 	/**
-	 * 下拉选择页面
+	 * Dropdown select page
 	 * @type {[type]}
 	 
 	 var page = document.querySelector("#page");

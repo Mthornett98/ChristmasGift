@@ -1,26 +1,22 @@
-# ChristmasGift
+Learning Summary
+Although I have typed the code slowly following the tutorial, there is still a lot of knowledge that needs to be learned slowly in the future. Here is a brief note of the technologies and knowledge points involved in this project:
 
-#### 学习总结 ####
+1. Use the new rem layout instead of the percentage layout solution;
 
-虽然跟着教程把代码的慢慢地敲了下来，但是这里面还有很多知识需要日后慢慢地去学习。这里简单记一下该项目所涉及的技术和知识点：
+2. Use a simple object-oriented programming solution to encapsulate each page scene element in the form of a class;
 
-1、采用新的rem布局代替百分比布局方案；
+3. Introduce the Observer pattern as a processing mechanism;
 
-2、用简单的面向对象编程方案，以类的形式对每一个页面场景元素做封装；
+4. Draw vector graphics through svg;
 
-3、引入Observer观察者模式作为处理机制；
+5. Use css3 animation;
 
-4、通过svg绘制矢量图；
+6. Use of CSS3 transform and transition;
 
-5、采用css3 animation动画；
+7. Implementation of 3D carousel: separate implementation demo , specific implementation process: CSS3 implementation of 3D carousel
 
-6、css3 transform、transition的使用；
+8. Use canvas to achieve snowflake effect;
 
-7、3d旋转木马的实现：单独实现[demo](http://fanwalker.com/learn/merry-go-round/carousel.html),具体实现过程：[css3实现3D旋转木马](https://github.com/FanWalker/learn)
+Final effect display: H5+JS+CSS3 learning on MOOC.com to achieve Christmas romance
 
-8、使用canvas实现雪花效果；
-
-
-最终的效果展示：[慕课网学习之H5+JS+CSS3 实现圣诞情缘](http://fanwalker.com/ChristmasGift/index.html)
-
-该效果和慕课网展示的有点偏差，待日后完善！
+This effect is slightly different from what is shown on the MOOC website and will be improved in the future!
